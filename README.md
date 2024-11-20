@@ -10,10 +10,10 @@ ghc -package directory -package deepseq main.hs -o main.exe -outputdir build/
 The imports of the directory and deepseq packages are essential for the correct functioning of the program. 
 After compilation, run the generated .exe file (on Windows) or the corresponding executable file for your operating system. 
 
-	If you are running on Linux, you may need to grant execution permission for the file with the following command:
+If you are running on Linux, you may need to grant execution permission for the file with the following command:
 chmod +x build/main
 
-	Then, execute it with the command:
+Then, execute it with the command:
 ./main
 If the main file is in the build folder, run it with:
 ./build/main
